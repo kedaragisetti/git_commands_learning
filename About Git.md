@@ -34,3 +34,14 @@
 - **git commit -m "I have made some changes to files"**
 
 **git rest HEAD~**  : It will reset all the committed or staged files back to the normal it was and again we can get back them by using **git add .**
+
+**git reset**: Removes files from the staging area, returning them to the working directory without deleting the changes.
+
+**git reset --hard**: Discards all uncommitted changes and reverts the repository to the state of the last commit.
+
+## Branching and Merging
+
+- git branch: Lists all local branches in the repository.
+- git branch [name]: Creates a new branch with the specified name.
+- git checkout [name]: Switches the current working directory to  the specified branch.
+- git merge [branch]: Integrates changes from the specified branch into the current branch.
