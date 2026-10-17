@@ -57,3 +57,17 @@
 * **git fetch**: Downloads remote data without merging.
 * **git pull**: Fetches and merges remote changes into the local branch.
 
+### **File Management**
+* **git rm [file]**: Deletes a file from both Git and the local filesystem.
+* **git rm --cached [file]**: Removes a file from tracking but keeps it in your local folder.
+* **git rm -r [folder]**: Recursively removes a folder and its contents.
+* **git restore [file]**: Discards local changes to a file.
+
+### **Advanced Utilities**
+* **git stash**: Temporarily saves uncommitted work.
+* **git stash list**: Shows the list of saved stashes.
+* **git stash apply**: Restores stashed work without removing it from the stash list.
+* **git stash pop**: Restores stashed work and removes it from the stash list.
+* **git stash drop**: Manually removes a specific stash entry.
+* **git revert [commit_id]**: Creates a new commit to undo the changes of a specific previous commit.
+* **git rebase [branch]**: Reapplies commits on top of another branch for a linear history.
