@@ -56,6 +56,3 @@
 * **git push**: Uploads local commits to a remote repository.
 * **git fetch**: Downloads remote data without merging.
 * **git pull**: Fetches and merges remote changes into the local branch.
-
-
-it is really wonderful
