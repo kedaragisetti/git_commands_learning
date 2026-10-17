@@ -57,4 +57,3 @@
 * **git fetch**: Downloads remote data without merging.
 * **git pull**: Fetches and merges remote changes into the local branch.
 
-Testing if the online changes may get reflected into the local.
