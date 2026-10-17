@@ -22,4 +22,15 @@
 
 **git reset** : Resets all the changes made and reset to the old version or files.
 
+**git add .** : Stage the changes within the current directory you're in.
 
+**`git add *`** : It stages all the visible changes except for deleted files
+
+- **git config --global user.email "Your email address"**
+
+- **git config --global user.name "Your Name here"** 
+- This will set both your name and email address globally
+
+- **git commit -m "I have made some changes to files"**
+
+**git rest HEAD~**  : It will reset all the committed or staged files back to the normal it was and again we can get back them by using **git add .**
