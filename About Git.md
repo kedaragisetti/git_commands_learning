@@ -39,9 +39,20 @@
 
 **git reset --hard**: Discards all uncommitted changes and reverts the repository to the state of the last commit.
 
-## Branching and Merging
+### Branching and Merging
 
 - git branch: Lists all local branches in the repository.
 - git branch [name]: Creates a new branch with the specified name.
 - git checkout [name]: Switches the current working directory to  the specified branch.
 - git merge [branch]: Integrates changes from the specified branch into the current branch.
+
+### **Viewing History and Comparing**
+* **git log**: Shows the full commit history.
+* **git log --oneline**: Displays a compact, single-line summary of commit history.
+* **git diff [commit1] [commit2]**: Compares changes between two specific commits.
+
+### **Remote Synchronization**
+* **git clone [url]**: Creates a local copy of a remote repository.
+* **git push**: Uploads local commits to a remote repository.
+* **git fetch**: Downloads remote data without merging.
+* **git pull**: Fetches and merges remote changes into the local branch.
