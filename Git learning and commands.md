@@ -71,6 +71,3 @@
 * **git stash drop**: Manually removes a specific stash entry.
 * **git revert [commit_id]**: Creates a new commit to undo the changes of a specific previous commit.
 * **git rebase [branch]**: Reapplies commits on top of another branch for a linear history
-
-
-Revert and rebase needs to be practiced again
